@@ -22,7 +22,7 @@ function calculateCoins(nickle, dime, quarter, loonie, toonie) {
     return total;
 }
 
-//console.log(`If I have 0 nickle, 3 dimes, 0 quarters, 3 loonies, and 0 toonies, I have $${calculateCoins(0, 3, 0, 3, 0)}.`);
+console.log(`If I have 1 nickle, 2 dimes, 3 quarters, 4 loonies, and 5 toonies, I have $${calculateCoins(1, 2, 3, 4, 5)}.`);
 
 export { calculateCoins }
 
