@@ -1,4 +1,4 @@
-/*Write a function that calculatesprice cost of a gym membership. A member gets a
+/*Write a function that calculates price cost of a gym membership. A member gets a
 discount according to the number of friends they sign up.
 0 friends: 0% discount
 1 friend: 5% discount
