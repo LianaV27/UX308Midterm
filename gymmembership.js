@@ -24,6 +24,7 @@ function calculateMembership(cost, friends) {
     } else if (friends >= 3) {
         price = cost - (cost * 0.15);
     }
+
     return price;
 }
 

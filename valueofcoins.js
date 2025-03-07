@@ -18,8 +18,8 @@ Returns:
 Write at least 3 tests. Don't forget to test 0.*/
 
 function calculateCoins(nickle, dime, quarter, loonie, toonie) {
-    let total = nickle * 0.05 + dime * 0.10 + quarter * 0.25 + loonie * 1.00 + toonie * 2.00;
-    return total;
+        let total = nickle * 0.05 + dime * 0.10 + quarter * 0.25 + loonie * 1.00 + toonie * 2.00;
+        return total;
 }
 
 console.log(`If I have 1 nickle, 2 dimes, 3 quarters, 4 loonies, and 5 toonies, I have $${calculateCoins(1, 2, 3, 4, 5)}.`);
