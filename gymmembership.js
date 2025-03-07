@@ -1,4 +1,4 @@
-/*Write a function that calculates total cost of a gym membership. A member gets a
+/*Write a function that calculatesprice cost of a gym membership. A member gets a
 discount according to the number of friends they sign up.
 0 friends: 0% discount
 1 friend: 5% discount
@@ -10,21 +10,21 @@ cost - a gym membership base cost (float > 0)
 friends - number of friends signed up (int >= 0)*/
 
 function calculateMembership(cost, friends) {
-    let total;
+    let price;
 
     if (friends == 0) {
-        total = cost;
+       price = cost;
 
     } else if (friends == 1) {
-        total = cost - (cost * 0.05);
+       price = cost - (cost * 0.05);
 
     } else if (friends == 2) {
-        total = cost - (cost * 0.10);
+       price = cost - (cost * 0.10);
 
     } else if (friends >= 3) {
-        total = cost - (cost * 0.15);
+       price = cost - (cost * 0.15);
     }
-    return total;
+    return price;
 }
 
 console.log(`If the membership cost $10, and I have 2 friends sign up, I pay $${calculateMembership(10,2)} for my membership.`);
