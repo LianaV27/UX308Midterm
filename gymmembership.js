@@ -13,19 +13,19 @@ function calculateMembership(cost, friends) {
     let price;
 
     if (friends == 0) {
-       price = cost;
+        price = cost;
 
     } else if (friends == 1) {
-       price = cost - (cost * 0.05);
+        price = cost - (cost * 0.05);
 
     } else if (friends == 2) {
-       price = cost - (cost * 0.10);
+        price = cost - (cost * 0.10);
 
     } else if (friends >= 3) {
-       price = cost - (cost * 0.15);
+        price = cost - (cost * 0.15);
     }
     return price;
 }
 
-console.log(`If the membership cost $10, and I have 2 friends sign up, I pay $${calculateMembership(10,2)} for my membership.`);
+console.log(`If the membership cost $25, and I have 3 friends sign up, I pay $${calculateMembership(25, 3)} for my membership.`);
 export { calculateMembership }
